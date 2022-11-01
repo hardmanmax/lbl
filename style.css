@@ -1,0 +1,82 @@
+@import url(mobile.css);
+
+* {
+  font-family: 'Source Sans Pro', sans-serif;
+  font-weight: 200;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  caret-color: transparent;
+}
+
+section {
+  margin: 50px;
+  max-width: 1000px;
+  margin: 50px auto;
+  padding: 0 50px;
+
+}
+/* NAVIGATION STYLES */
+.navbar {
+  caret-color: transparent;
+  display: flex;
+  flex-direction: row;
+  background-color: white;
+}
+
+.navbar-expand-lg {
+  padding: 0;
+}
+
+.container-fluid {
+  height: 3em;
+}
+
+.navbar-brand img{
+  height: 64px;
+
+}
+
+/* END OF NAV STYLES */
+
+/* HERO STYLES */
+.hero {
+  text-align: center; 
+  background: linear-gradient(hsl(42, 92%, 65%), #f5b00a, #f5b00a );
+  border-radius: 10px;
+}
+
+.text-container {
+  padding: 2.5rem 0;
+}
+
+.text-container p {
+  font-size: 1.5em;
+  max-width: 80%;
+  margin: 0 auto;
+}
+
+.welcome-heading {
+  padding-bottom: 1em;
+}
+
+.email-link {
+  color: white;
+}
+.email-link:hover {
+  color: black;
+}
+
+/* END OF HERO STYLES */
+
+.form-group h1 {
+  text-align: center;
+}
+
+.btn {
+  margin-top: 10px;
+}
+
+.contact-form input {
+  caret-color: auto;
+}
